@@ -6,6 +6,7 @@
 [subrepo]
 	remote = git@github.com:jochym/indi-dock.git
 	branch = master
-	commit = 
+	commit = f7ca94f9fce2e7cfd238c091cf9dc68b23057264
 	method = merge
 	cmdver = 0.4.0
+	parent = b359958a128a81ef9093e5126b8bc4e666a06582
