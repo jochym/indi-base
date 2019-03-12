@@ -6,6 +6,7 @@
 [subrepo]
 	remote = git@github.com:jochym/indi-debian.git
 	branch = master
-	commit = 
+	commit = f22f44cd2a678e3862f63fed086f6a1c9d7af813
 	method = merge
 	cmdver = 0.4.0
+	parent = 001b69590e96ac379b1220dcd362a4c23d72adf5
