@@ -6,6 +6,7 @@
 [subrepo]
 	remote = git@github.com:jochym/indi-cmake.git
 	branch = master
-	commit = 
+	commit = 55f4dd0c907ee61600aa28bae9f7df8f5c1b1ca6
 	method = merge
 	cmdver = 0.4.0
+	parent = 5cc0ca12d22c92e9dc3bea62a176e1c84ead4400
