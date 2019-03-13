@@ -5,9 +5,9 @@ set -x -e
 br=( master develop package travis pull )
 
 build_all () {
-    circle-ci/build-core.sh
-    circle-ci/build-libs.sh
-    #circle-ci/build-3rdparty.sh
+    CI/circle/build-core.sh
+    CI/circle/build-libs.sh
+    #CI/circle/build-3rdparty.sh
 }
 
 

@@ -26,14 +26,14 @@ branches:
 
 before_install:
     - echo Install dependencies
-    - travis-ci/deps-${TRAVIS_OS_NAME}.sh
+    - CI/travis/deps-${TRAVIS_OS_NAME}.sh
 
 install:
     - echo Building INDI Core and drivers
-    - travis-ci/build-core.sh
-    - travis-ci/build-libs.sh
-    - travis-ci/build-3rdparty.sh
-    - travis-ci/build-deb-packages.sh
+    - CI/travis/build-core.sh
+    - CI/travis/build-libs.sh
+    - CI/travis/build-3rdparty.sh
+    - CI/travis/build-deb-packages.sh
 #    - travis-ci/build-core.sh Debug
 #    - travis-ci/build-libs.sh Debug
 #    - travis-ci/build-3rdparty.sh Debug
@@ -44,5 +44,5 @@ install:
 #    - travis-ci/build-deb-packages.sh Release
 
 script:
-    - travis-ci/run-tests.sh 
+    - CI/travis/run-tests.sh 
 
