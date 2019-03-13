@@ -6,7 +6,7 @@ br=( master develop package travis pull )
 
 build_all () {
     CI/circle/build-core.sh
-    CI/circle/build-libs.sh
+    #CI/circle/build-libs.sh
     #CI/circle/build-3rdparty.sh
 }
 
