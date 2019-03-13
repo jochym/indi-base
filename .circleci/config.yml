@@ -8,10 +8,10 @@ jobs:
       - checkout
       - run:
           name: Build all
-          command: .circleci/build-all.sh
+          command: circle-ci/build-all.sh
       - run:
           name: Run tests
-          command: .circleci/run-tests.sh
+          command: circle-ci/run-tests.sh
 
   build_buster:
     docker:
@@ -20,10 +20,10 @@ jobs:
       - checkout
       - run:
           name: Build all
-          command: .circleci/build-all.sh
+          command: circle-ci/build-all.sh
       - run:
           name: Run tests
-          command: .circleci/run-tests.sh
+          command: circle-ci/run-tests.sh
 
   build_artful:
     docker:
@@ -32,10 +32,10 @@ jobs:
       - checkout
       - run:
           name: Build all
-          command: .circleci/build-all.sh
+          command: circle-ci/build-all.sh
       - run:
           name: Run tests
-          command: .circleci/run-tests.sh
+          command: circle-ci/run-tests.sh
 
   build_bionic:
     docker:
@@ -44,10 +44,10 @@ jobs:
       - checkout
       - run:
           name: Build all
-          command: .circleci/build-all.sh
+          command: circle-ci/build-all.sh
       - run:
           name: Run tests
-          command: .circleci/run-tests.sh
+          command: circle-ci/run-tests.sh
  
   build_cosmic:
     docker:
@@ -56,10 +56,10 @@ jobs:
       - checkout
       - run:
           name: Build all
-          command: .circleci/build-all.sh
+          command: circle-ci/build-all.sh
       - run:
           name: Run tests
-          command: .circleci/run-tests.sh
+          command: circle-ci/run-tests.sh
 
  
   build_clang4:
@@ -72,10 +72,10 @@ jobs:
       - checkout
       - run:
           name: Build all
-          command: .circleci/build-all.sh
+          command: circle-ci/build-all.sh
       - run:
           name: Run tests
-          command: .circleci/run-tests.sh
+          command: circle-ci/run-tests.sh
 
   build_clang5:
     docker:
@@ -87,10 +87,10 @@ jobs:
       - checkout
       - run:
           name: Build all
-          command: .circleci/build-all.sh
+          command: circle-ci/build-all.sh
       - run:
           name: Run tests
-          command: .circleci/run-tests.sh
+          command: circle-ci/run-tests.sh
 
   build_fedora:
     docker:
@@ -99,10 +99,10 @@ jobs:
       - checkout
       - run:
           name: Build all
-          command: .circleci/build-all.sh
+          command: circle-ci/build-all.sh
       - run:
           name: Run tests
-          command: .circleci/run-tests.sh
+          command: circle-ci/run-tests.sh
 
   build_centos:
     docker:
@@ -111,10 +111,10 @@ jobs:
       - checkout
       - run:
           name: Build all
-          command: .circleci/build-all.sh
+          command: circle-ci/build-all.sh
       - run:
           name: Run tests
-          command: .circleci/run-tests.sh
+          command: circle-ci/run-tests.sh
 
   build_trusty:
     docker:
@@ -123,10 +123,10 @@ jobs:
       - checkout
       - run:
           name: Build all
-          command: .circleci/build-all.sh
+          command: circle-ci/build-all.sh
       - run:
           name: Run tests
-          command: .circleci/run-tests.sh
+          command: circle-ci/run-tests.sh
 
   build_opensuse:
     docker:
@@ -135,10 +135,10 @@ jobs:
       - checkout
       - run:
           name: Build all
-          command: .circleci/build-all.sh
+          command: circle-ci/build-all.sh
       - run:
           name: Run tests
-          command: .circleci/run-tests.sh
+          command: circle-ci/run-tests.sh
 
   build_arch:
     docker:
@@ -147,10 +147,10 @@ jobs:
       - checkout
       - run:
           name: Build all
-          command: .circleci/build-all.sh
+          command: circle-ci/build-all.sh
       - run:
           name: Run tests
-          command: .circleci/run-tests.sh
+          command: circle-ci/run-tests.sh
 
 
 workflows:
