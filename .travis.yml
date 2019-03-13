@@ -31,7 +31,7 @@ before_install:
 install:
     - echo Building INDI Core and drivers
     - CI/travis/build-core.sh
-    - CI/travis/build-libs.sh
+#    - CI/travis/build-libs.sh
 #   - CI/travis/build-3rdparty.sh
     - CI/travis/build-deb-packages.sh
 #    - travis-ci/build-core.sh Debug
