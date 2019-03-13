@@ -3,7 +3,7 @@ version: 2
 jobs:
   build_stretch:
     docker:
-      - image: jochym/indi-docker:stretch
+      - image: jochym/indi-build-core:stretch
     steps:
       - checkout
       - run:
@@ -15,7 +15,7 @@ jobs:
 
   build_buster:
     docker:
-      - image: jochym/indi-docker:buster
+      - image: jochym/indi-build-core:buster
     steps:
       - checkout
       - run:
@@ -27,7 +27,7 @@ jobs:
 
   build_artful:
     docker:
-      - image: jochym/indi-docker:artful
+      - image: jochym/indi-build-core:artful
     steps:
       - checkout
       - run:
@@ -39,7 +39,7 @@ jobs:
 
   build_bionic:
     docker:
-      - image: jochym/indi-docker:bionic
+      - image: jochym/indi-build-core:bionic
     steps:
       - checkout
       - run:
@@ -51,7 +51,7 @@ jobs:
  
   build_cosmic:
     docker:
-      - image: jochym/indi-docker:cosmic
+      - image: jochym/indi-build-core:cosmic
     steps:
       - checkout
       - run:
@@ -64,7 +64,7 @@ jobs:
  
   build_clang4:
     docker:
-      - image: jochym/indi-docker:artful
+      - image: jochym/indi-build-core:artful
         environment:
           CC: clang
           CXX: clang++
@@ -79,7 +79,7 @@ jobs:
 
   build_clang5:
     docker:
-      - image: jochym/indi-docker:bionic
+      - image: jochym/indi-build-core:bionic
         environment:
           CC: clang
           CXX: clang++
@@ -94,7 +94,7 @@ jobs:
 
   build_fedora:
     docker:
-      - image: jochym/indi-docker:fedora
+      - image: jochym/indi-build-core:fedora
     steps:
       - checkout
       - run:
@@ -106,7 +106,7 @@ jobs:
 
   build_centos:
     docker:
-      - image: jochym/indi-docker:centos
+      - image: jochym/indi-build-core:centos
     steps:
       - checkout
       - run:
@@ -118,7 +118,7 @@ jobs:
 
   build_trusty:
     docker:
-      - image: jochym/indi-docker:trusty
+      - image: jochym/indi-build-core:trusty
     steps:
       - checkout
       - run:
@@ -130,7 +130,7 @@ jobs:
 
   build_opensuse:
     docker:
-      - image: jochym/indi-docker:opensuse
+      - image: jochym/indi-build-core:opensuse
     steps:
       - checkout
       - run:
@@ -142,7 +142,7 @@ jobs:
 
   build_arch:
     docker:
-      - image: jochym/indi-docker:arch
+      - image: jochym/indi-build-core:arch
     steps:
       - checkout
       - run:
