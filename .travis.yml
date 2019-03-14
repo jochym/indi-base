@@ -1,15 +1,12 @@
-compiler:
- - gcc
 
 language: cpp
-sudo: required
-dist: xenial
-osx_image: xcode8.3
-
 os: osx
-  env:
-    - BUILD_INSTALL_GTEST=YES
-    
+osx_image: xcode8.3  
+env:
+  - BUILD_INSTALL_GTEST=YES
+
+compiler:
+ - gcc
 
 branches:
   only:
