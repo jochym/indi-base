@@ -10,7 +10,7 @@ mkdir -p build/libindi
 pushd build/libindi
 cmake -DINDI_BUILD_UNITTESTS=ON -DCMAKE_INSTALL_PREFIX=/usr/local/ . ${SRC}/libindi/ -DFIX_WARNINGS=ON -DCMAKE_BUILD_TYPE=$1
 make
-sudo make install
+make install
 popd
 
 exit 0
